@@ -1,4 +1,4 @@
-Create well-formatted commits with conventional commit messages.
+# Create well-formatted commits with conventional commit messages.
 
 ## Usage
 
@@ -31,12 +31,12 @@ Create well-formatted commits with conventional commit messages.
 3. Run `git status` and `git diff --staged` to review changes
 4. If files are already staged, show them to the user and ask whether to commit only staged files or add more
 5. If no files are staged, `git add` relevant files (exclude secrets like .env, credentials, etc.)
-5. Analyze the diff to determine if multiple distinct logical changes are present
-6. If multiple concerns are detected, suggest splitting into separate atomic commits
-7. Craft a commit message following the rules below
-8. Confirm the commit message with the user before committing
-9. Execute the commit (with `--no-verify` if `-f` was given)
-10. If `-p` was given, push to remote with `git push -u origin <current-branch>`
+6. Analyze the diff to determine if multiple distinct logical changes are present
+7. If multiple concerns are detected, suggest splitting into separate atomic commits
+8. Craft a commit message following the rules below
+9. Confirm the commit message with the user before committing
+10. Execute the commit (with `--no-verify` if `-f` was given)
+11. If `-p` was given, push to remote with `git push -u origin <current-branch>`
 
 ## Commit message rules
 
