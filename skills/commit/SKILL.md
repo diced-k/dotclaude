@@ -1,3 +1,8 @@
+---
+name: commit
+description: Create a well-formatted commit with a conventional commit message. Use when the user invokes /commit, asks to commit changes, or wants to commit and push to the remote.
+---
+
 Create well-formatted commits with conventional commit messages.
 
 ## Usage
